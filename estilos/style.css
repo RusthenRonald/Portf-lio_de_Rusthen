@@ -9,6 +9,7 @@ body,html{
 header{
     height: 500px;
 }
+/*menu normal*/
 nav{
     display: flex;
     justify-content: center;
@@ -17,6 +18,7 @@ nav{
     height: 80px;
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.1); 
 }
+
 nav a{
     text-transform: uppercase;
     color:#333;
@@ -29,7 +31,6 @@ button {
     color: white;
     background: #00714E;
 }
-/*icone*/
-#menu_hamburguer{
+#menu-hamburguer{
     display: none;
 }

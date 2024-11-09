@@ -10,12 +10,12 @@
 </head>
 <body>
     <header>
-        <nav id="menu_normal">
+        <nav id="menu-normal">
             <a href="#">Sobre mim</a>
             <a href="#">Skills</a>
             <a href="#">Porfólio</a>
             <a href="#"><button>Contato</button></a>
-            <span id="menu_hamburguer" class="material-icons">menu</span>
+            <span id="menu-hamburguer" class="material-icons">menu</span>
         </nav>
     </header>
     <main>
@@ -26,3 +26,8 @@
     </footer>
 </body>
 </html>
+<script>
+    document.getElementById("menu-hamburguer").onclick =function(){
+        document.querySelector("nav").classList.toggle("menu-aberto");
+    }
+</script>
