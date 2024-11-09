@@ -43,29 +43,23 @@ button:hover{
     box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3); 
 }
 main{
-    background-color:#1D8F6B ;
+    height: 100vh;
+    background-color: aqua;
 }
 .sobre_mim{
+    padding-top: 100px;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
 }
-.container_interno_sobre{
-    display: flex;
-    background-color: #333;
+.sobre_mim div{
+    width: 400px;
 }
 .sobre_info{
-    width: 50%;
-}
-.sobre_info h3{
-    color: white;
-}
-.sobre_info p{
-    color: white;
-}
-.sobre_info span{
-    color: #00714E;
+
 }
 .sobre_img img{
-    height: 400px;
     border-radius: 50%;
+    height: 400px;
 }
