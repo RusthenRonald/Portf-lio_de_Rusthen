@@ -21,6 +21,7 @@ nav{
 }
 nav a{
     text-decoration: none;
+    text-transform: uppercase;
 }
 #menu_hamburguer{
     display: none;
