@@ -18,7 +18,8 @@ nav{
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.1); 
 }
 nav a{
-    color: black;
+    text-transform: uppercase;
+    color:#333;
     text-decoration: none;
 }
 button {
@@ -26,5 +27,5 @@ button {
     border: none;
     padding: 10px;
     color: white;
-    background: linear-gradient(to right , #35805C,#50BF89);
+    background: #00714E;
 }
