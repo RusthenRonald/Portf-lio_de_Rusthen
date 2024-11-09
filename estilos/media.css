@@ -12,20 +12,7 @@ Breakpoint: min-width: 1441px
 */
 
 @media screen and (min-width:200px) and (max-width:420px){
-   nav{
-    flex-direction: column;
-   }
-   nav a{
-    display: none;
-   }
-   #menu-hamburguer{
-    display: block;
-   }
-   /*menu aberto*/
-    .menu-aberto a{
-        display: block;
-        
-    }
+  
 }
 /*Telas celulares maiores*/
 @media screen and (min-width:420px) and (max-width:767px){

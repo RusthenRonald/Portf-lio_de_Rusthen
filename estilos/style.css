@@ -6,23 +6,24 @@
 body,html{
     height: 100vh;
 }
-header{
-    height: 500px;
+menu{
+    display: flex;
+    height: 70px;
+    justify-content:center;
+    align-items: center;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.1); 
 }
-/*menu normal*/
 nav{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 50px;
-    height: 80px;
-    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.1); 
+    gap: 25px;
 }
-
 nav a{
-    text-transform: uppercase;
-    color:#333;
     text-decoration: none;
+}
+#menu_hamburguer{
+    display: none;
 }
 button {
     border-radius: 5px;
@@ -30,7 +31,4 @@ button {
     padding: 10px;
     color: white;
     background: #00714E;
-}
-#menu-hamburguer{
-    display: none;
 }
