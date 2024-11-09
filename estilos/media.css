@@ -15,6 +15,13 @@ Breakpoint: min-width: 1441px
     nav{
         gap: 15px;
     }
+    nav a{
+        font-size: 0.8em;
+    }
+    /*icone*/
+    #menu_hamburguer{
+        display: block;
+    }
 }
 /*Telas celulares maiores*/
 @media screen and (min-width:420px) and (max-width:767px){
