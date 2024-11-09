@@ -43,6 +43,16 @@ button:hover{
     box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3); 
 }
 /*Sobre mim*/
+main{
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sobre_mim{
+    display: flex;
+    justify-content: center;
+}
 .img img{
     height: 300px;
     border-radius: 50%;
