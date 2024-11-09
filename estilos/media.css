@@ -1,15 +1,3 @@
-/*
-meus breakpoints 
-
-Tablets:
-Breakpoint: min-width: 768px e max-width: 1024px
-
-Laptops e Desktops:
-Breakpoint: min-width: 1025px e max-width: 1440px
-
-Desktops Grandes (4K e telas maiores):
-Breakpoint: min-width: 1441px
-*/
 
 @media screen and (min-width:200px) and (max-width:420px){
   #menu_normal{/*esconde os itens*/
@@ -33,20 +21,15 @@ button{
     margin-bottom: 20px;
 }
 }
-/*Telas celulares maiores*/
 @media screen and (min-width:420px) and (max-width:767px){
 
 }
-/*Telas de Tablet:*/
 @media screen and (min-width:768px) and (max-width:1024px){
 
 }
-/*Telas de desktop ou laptop: */
 @media screen and (min-width:1025px) and (max-width:1440px){
 
 }
-/*Telas grandes */
 @media screen and (min-width:1441px) {
 
 }
-
