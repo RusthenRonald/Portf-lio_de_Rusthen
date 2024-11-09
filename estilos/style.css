@@ -53,6 +53,18 @@ main{
     display: flex;
     background-color: #333;
 }
+.sobre_info{
+    width: 50%;
+}
+.sobre_info h3{
+    color: white;
+}
+.sobre_info p{
+    color: white;
+}
+.sobre_info span{
+    color: #00714E;
+}
 .sobre_img img{
     height: 400px;
     border-radius: 50%;
