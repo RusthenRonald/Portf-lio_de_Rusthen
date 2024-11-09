@@ -42,20 +42,16 @@ button:hover{
     transform: scale(1.007);
     box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3); 
 }
-/*Sobre mim*/
 main{
-    height: 50vh;
+    
 }
-/*
-.sobre_mim{
-    display: flex;
-    flex-direction: row-reverse;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+/*Sobre mim*/
+.container{
+    max-width:1100px ;
     width: 100%;
+    background-color: red;
+    margin: auto;
 }
-.img img{
-    height: 350px;
-    position: relative;
+.home-img img{
+    height: 400px;
 }
-*/
