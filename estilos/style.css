@@ -28,9 +28,13 @@ nav a{
     display: none;
 }
 button {
+    cursor: pointer;
     border-radius: 5px;
     border: none;
     padding: 10px;
     color: white;
     background: #00714E;
+}
+button:hover{
+    transform: scale(1.007);
 }
