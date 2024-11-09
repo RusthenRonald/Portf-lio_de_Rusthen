@@ -15,6 +15,7 @@ nav{
     justify-content: center;
     gap: 50px;
     height: 80px;
+    padding-top: 40px;
 }
 nav a{
     color: white;
