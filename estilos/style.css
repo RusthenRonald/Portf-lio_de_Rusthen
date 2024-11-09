@@ -45,9 +45,6 @@ button:hover{
 /*Sobre mim*/
 main{
     height: 50vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 /*
 .sobre_mim{
