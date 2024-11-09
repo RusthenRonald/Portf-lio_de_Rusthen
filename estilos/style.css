@@ -29,3 +29,7 @@ button {
     color: white;
     background: #00714E;
 }
+/*icone*/
+#menu_hamburguer{
+    display: none;
+}
