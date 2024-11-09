@@ -51,13 +51,14 @@ main{
 }
 .sobre_mim{
     display: flex;
+    flex-direction: row-reverse;
     flex-wrap: wrap;
     justify-content: space-evenly;
     width: 100%;
 }
 .img img{
     height: 350px;
-    border-radius: 50%;
+    position: relative;
 }
 .texto{
     flex-direction: column;
