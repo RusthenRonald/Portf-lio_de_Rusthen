@@ -49,6 +49,7 @@ main{
     justify-content: center;
     align-items: center;
 }
+/*
 .sobre_mim{
     display: flex;
     flex-direction: row-reverse;
@@ -60,9 +61,4 @@ main{
     height: 350px;
     position: relative;
 }
-.texto{
-    flex-direction: column;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+*/
