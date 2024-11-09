@@ -31,5 +31,11 @@ button{
 
 }
 @media screen and (min-width:1441px) {
-
+    .texto h1{
+        font-size: 2.7em;
+    }
+    .texto h2{
+        font-size: 2em;
+        
+    }
 }
