@@ -6,3 +6,11 @@
 body,html{
     height: 100vh;
 }
+header{
+    height: 500px;
+    background-color: black;
+}
+menu{
+    background-color: aqua;
+    height: 80px;
+}
