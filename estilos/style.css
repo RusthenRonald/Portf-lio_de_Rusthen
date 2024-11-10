@@ -63,6 +63,7 @@ main{
 .sobre_info h3{
     font-family: "Noto Sans", serif;
 }
+
 .cor{
     color: #1D8F6B;
 }
@@ -70,6 +71,7 @@ main{
     border-radius: 50%;
     height: 400px;
 }
+/*digitação*/
 .digitando{
     display: inline-block;
     overflow: hidden;
@@ -84,11 +86,11 @@ main{
         width: 0;
     }
     100% {
-        width: 100%; /* A animação preenche a largura */
+        width: 100%; 
     }
 }
 
-/* Animação do cursor piscando */
+/* cursor piscando */
 @keyframes blink-caret {
     50% {
         border-color: transparent;
@@ -98,5 +100,5 @@ main{
 .digitando{
     animation: typing 4s steps(30, end) 1s forwards, blink-caret 0.75s step-end infinite;
     animation-iteration-count: infinite;
-    animation-delay: 3s; /* Pausa de 3 s */
+    animation-delay: 3s; 
 }
