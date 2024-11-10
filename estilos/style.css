@@ -8,6 +8,11 @@ body,html{
 }
 menu{
     display: flex;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background-color: white; 
+    z-index: 1000;
     height: 70px;
     justify-content:center;
     align-items: center;
@@ -44,7 +49,6 @@ button:hover{
 }
 main{
     height: 100vh;
-    background-color: aqua;
 }
 .sobre_mim{
     padding-top: 100px;
@@ -54,10 +58,13 @@ main{
     flex-wrap: wrap;
 }
 .sobre_mim div{
-    width: 400px;
+    
 }
-.sobre_info{
-
+.sobre_info h3{
+    
+}
+.sobre_info span{
+    
 }
 .sobre_img img{
     border-radius: 50%;
