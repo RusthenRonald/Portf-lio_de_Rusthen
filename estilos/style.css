@@ -103,3 +103,11 @@ main{
     animation-iteration-count: infinite;
     animation-delay: 3s; 
 }
+/*skills*/
+.skills{
+    margin-top: 10vh;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
