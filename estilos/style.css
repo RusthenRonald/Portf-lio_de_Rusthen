@@ -122,4 +122,8 @@ main{
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.274);
     padding: 30px;
     border-radius: 15px;
+    transition: transform 0.3s ease;
+}
+.icones_skills:hover{
+    transform: scale(1.2);
 }
