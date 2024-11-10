@@ -63,14 +63,15 @@ main{
 .sobre_info h3{
     font-family: "Noto Sans", serif;
 }
-
-.cor{
-    color: #1D8F6B;
-}
 .sobre_img img{
     border-radius: 50%;
     height: 400px;
 }
+/*span com cores*/
+.cor{
+    color: #1D8F6B;
+}
+
 /*digitação*/
 .digitando{
     display: inline-block;
