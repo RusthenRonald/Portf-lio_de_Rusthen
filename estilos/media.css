@@ -114,8 +114,11 @@ button{
   font-size: 50px;
 }
 .h2_skills{
-  margin-top: 20vh;
-  font-size: 1.5em;
+  margin-top: 10vh;
+  font-size: 1.8em;
+}
+.skills{
+  gap: 100px;
 }
 }
 @media screen and (min-width:1441px) {
@@ -133,7 +136,6 @@ button{
   .h2_skills{
     margin-top: 10vh;
     font-size: 2em;
-    
 }
 .skills{
   gap: 200px;
