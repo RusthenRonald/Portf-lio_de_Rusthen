@@ -109,12 +109,17 @@ main{
     animation-delay: 3s; 
 }
 /*skills*/
+.container_skills{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 650px;
+}
 .h2_skills{
     display: flex;
     justify-content: center;
 }
 .skills{
-    height: 450px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
