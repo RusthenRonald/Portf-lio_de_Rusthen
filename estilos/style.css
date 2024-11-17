@@ -124,6 +124,10 @@ main{
     gap: 50px;
 }
 .icones_skills{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.274);
     padding: 30px;
     border-radius: 15px;

@@ -44,9 +44,6 @@ button{
   height: 340px;
 }
 /*skills*/
-.skills{
-  gap: 25px;
-}
 .icones_skills i{
   font-size: 30px;
 }
@@ -75,7 +72,7 @@ button{
 }
 .h2_skills{
   margin-top: 10vh;
-  font-size: 1.3em;
+  font-size: 1.6em;
 }
 }
 @media screen and (min-width:768px) and (max-width:1024px){
@@ -89,13 +86,19 @@ button{
     font-size: 1.3em;
     width: 500px;
 }
+.sobre_img{
+  padding-bottom: 50px;
+}
 /*skills*/
 .icones_skills i{
   font-size: 40px;
 }
 .h2_skills{
-  margin-top: 20vh;
-  font-size: 1.3em;
+  margin-top: 10vh;
+  font-size: 1.8em;
+}
+.skills{
+  gap: 100px;
 }
 }
 @media screen and (min-width:1025px) and (max-width:1440px){
