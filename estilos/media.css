@@ -94,9 +94,6 @@ button{
 .h2_skills{
   font-size: 1.8em;
 }
-.skills{
-  gap: 100px;
-}
 }
 @media screen and (min-width:1025px) and (max-width:1440px){
   .sobre_info h3{
@@ -116,9 +113,6 @@ button{
 .h2_skills{
   font-size: 1.8em;
 }
-.skills{
-  gap: 100px;
-}
 }
 @media screen and (min-width:1441px) {
     .sobre_info h3{
@@ -136,10 +130,6 @@ button{
     font-size: 60px;
   }
   .h2_skills{
-
     font-size: 2.4em;
-}
-.skills{
-  gap: 200px;
 }
 }
