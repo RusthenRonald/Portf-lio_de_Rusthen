@@ -159,14 +159,28 @@ main{
     display: flex;
     background-color: rgb(37, 37, 37);
     height: 350px;
-    width: 700px;
+    width: 900px;
     border-radius: 5px;
     box-sizing: border-box;
 }
-.img_projeto{
+.img_projeto1{
     background-image: url(../imagem/Captura\ de\ tela\ 2024-11-17\ 194227.png);
     height: auto;
     width: 50%;
     background-size: cover;
     background-position: center;
+}
+.img_projeto2{
+    background-image: url(../imagem/Captura\ de\ tela\ 2024-11-17\ 194336.png);
+    height: auto;
+    width: 50%;
+    background-size: cover;
+    background-position: center;
+}
+.img_projeto3{
+    background-image: url(../imagem/Captura\ de\ tela\ 2024-11-17\ 194507.png);
+    height: auto;
+    width: 50%;
+    background-size: cover;
+    background-position:left;
 }
