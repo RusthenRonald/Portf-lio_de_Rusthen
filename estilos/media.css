@@ -21,7 +21,25 @@ button{
     margin-bottom: 20px;
 }
 /*sobre mim*/
-
+.sobre_mim{
+  height: 800px;
+}
+.sobre_info{
+  padding-top: 150px;
+}
+.sobre_info h3{
+  font-size: 1.3em;
+}
+.sobre_info p{
+  font-size: 1.0em;
+  width: 300px;
+}
+.sobre_img{
+  margin-bottom: 70px;
+}
+.sobre_img img{
+  height: 340px;
+}
 /*skills*/
 .skills{
   gap: 25px;
@@ -35,7 +53,19 @@ button{
 }
 }
 @media screen and (min-width:420px) and (max-width:767px){
- 
+  .sobre_info{
+    padding-top: 150px;
+  }
+  .sobre_info h3{
+    font-size: 1.5em;
+  }
+  .sobre_info p{
+    font-size: 1.0em;
+    width: 350px;
+}
+.sobre_img img{
+  height: 360px;
+}
 /*skills*/
 .icones_skills i{
   font-size: 40px;
