@@ -133,12 +133,15 @@ button{
       width: 500px;
   }
   /*skills*/
+  .icones_skills{
+    padding:45px;
+  }
   .icones_skills i{
     font-size: 60px;
   }
   .h2_skills{
     margin-top: 10vh;
-    font-size: 2em;
+    font-size: 2.4em;
 }
 .skills{
   gap: 200px;
