@@ -21,23 +21,7 @@ button{
     margin-bottom: 20px;
 }
 /*sobre mim*/
-.sobre_mim{
-  padding-top: 150px;
-  gap: 60px;
-}
-.sobre_info{
-  width: 300px;
-}
-.sobre_info h3{
-  font-size: 1.6em;
-}
-.sobre_info p{
-  font-size: 1.1em;
-}
-.sobre_img img{
-  border-radius: 50%;
-  height: 300px;
-}
+
 /*skills*/
 .skills{
   gap: 25px;
@@ -51,21 +35,7 @@ button{
 }
 }
 @media screen and (min-width:420px) and (max-width:767px){
-  .sobre_mim{
-    padding-top: 150px;
-    gap: 60px;
-  }
-  .sobre_info h3{
-    font-size: 1.9em;
-  }
-  .sobre_info p{
-    font-size: 1.1em;
-    width: 450px;
-}
-  .sobre_img img{
-    border-radius: 50%;
-    height: 300px;
-}
+ 
 /*skills*/
 .icones_skills i{
   font-size: 40px;
@@ -76,16 +46,15 @@ button{
 }
 }
 @media screen and (min-width:768px) and (max-width:1024px){
+  .sobre_info{
+    padding-top: 150px;
+  }
   .sobre_info h3{
-    font-size: 1.7em;
+    font-size: 2.4em;
   }
   .sobre_info p{
-    font-size: 1.0em;
-    width: 450px;
-}
-  .sobre_img img{
-    border-radius: 50%;
-    height: 300px;
+    font-size: 1.3em;
+    width: 500px;
 }
 /*skills*/
 .icones_skills i{
@@ -98,15 +67,14 @@ button{
 }
 @media screen and (min-width:1025px) and (max-width:1440px){
   .sobre_info h3{
-    font-size: 2.2em;
+    font-size: 2.4em;
   }
   .sobre_info p{
     font-size: 1.3em;
     width: 500px;
 }
-  .sobre_img img{
-    border-radius: 50%;
-    height: 350px;
+.sobre_img img{
+  height: 380px;
 }
 /*skills*/
 .icones_skills i{
