@@ -163,6 +163,13 @@ main{
     border-radius: 5px;
     box-sizing: border-box;
 }
+.sobre_projeto {
+    color: white;
+    padding: 20px;
+}
+.sobre_projeto p{
+    width: 400px;
+}
 .img_projeto1{
     background-image: url(../imagem/Captura\ de\ tela\ 2024-11-17\ 194227.png);
     height: auto;
