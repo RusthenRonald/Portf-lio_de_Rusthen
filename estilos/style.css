@@ -113,7 +113,7 @@ main{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 650px;
+    height: 750px;
 }
 .h2_skills{
     display: flex;
@@ -145,3 +145,8 @@ main{
     transform: scale(1.2);
 }
 
+/*Projetos*/
+.container_projetos{
+    background-color: black;
+    height: 650px;
+}
