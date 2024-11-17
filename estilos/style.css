@@ -114,7 +114,6 @@ main{
     justify-content: center;
 }
 .skills{
-    margin-top: 10px;
     height: 450px;
     display: flex;
     flex-wrap: wrap;
