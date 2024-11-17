@@ -153,10 +153,11 @@ main{
     align-items: center;
     gap: 50px;
     background-color: black;
-    height: 1050px;
+    height: 1750px;
 }
 .projetos{
     background-color: rgb(37, 37, 37);
-    height: 200px;
-    width: 40%;
+    height: 300px;
+    width: 60%;
+    border-radius: 5px;
 }
