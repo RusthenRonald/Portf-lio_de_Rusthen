@@ -112,7 +112,6 @@ main{
 .h2_skills{
     display: flex;
     justify-content: center;
-    color: #1D8F6B;
 }
 .skills{
     margin-top: 10px;
@@ -128,6 +127,10 @@ main{
     padding: 30px;
     border-radius: 15px;
     transition: transform 0.3s ease;
+}
+.icones_skills p{
+    padding-top: 15px;
+    text-align: center;
 }
 .icones_skills:hover{
     transform: scale(1.2);

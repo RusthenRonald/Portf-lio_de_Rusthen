@@ -133,5 +133,9 @@ button{
   .h2_skills{
     margin-top: 20vh;
     font-size: 1.7em;
+    
+}
+.skills{
+  gap: 200px;
 }
 }
