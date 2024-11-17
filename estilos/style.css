@@ -51,17 +51,22 @@ main{
     height: 100vh;
 }
 .sobre_mim{
-    padding-top: 100px;
+    height: 950px;
     display: flex;
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
+    background-color: black;
 }
 .sobre_mim div{
     
 }
 .sobre_info h3{
+    color: white;
     font-family: "Noto Sans", serif;
+}
+.sobre_info p{
+    color: white;
 }
 .sobre_img img{
     border-radius: 50%;
