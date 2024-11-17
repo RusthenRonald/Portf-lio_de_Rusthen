@@ -112,6 +112,7 @@ main{
 .h2_skills{
     display: flex;
     justify-content: center;
+    margin-bottom: 10vh;
 }
 .skills{
     margin-top: 10px;
