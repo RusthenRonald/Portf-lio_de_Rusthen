@@ -156,8 +156,17 @@ main{
     height: 1750px;
 }
 .projetos{
+    display: flex;
     background-color: rgb(37, 37, 37);
-    height: 300px;
-    width: 60%;
+    height: 350px;
+    width: 700px;
     border-radius: 5px;
+    box-sizing: border-box;
+}
+.img_projeto{
+    background-image: url(../imagem/Captura\ de\ tela\ 2024-11-17\ 194227.png);
+    height: auto;
+    width: 50%;
+    background-size: cover;
+    background-position: center;
 }
