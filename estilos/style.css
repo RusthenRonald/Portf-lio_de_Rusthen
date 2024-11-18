@@ -153,7 +153,7 @@ main{
     align-items: center;
     gap: 50px;
     background-color: black;
-    height: 1750px;
+    height: 1850px;
 }
 .projetos{
     display: flex;
@@ -163,6 +163,7 @@ main{
     border-radius: 5px;
     box-sizing: border-box;
 }
+/*texto e bootoes*/
 .sobre_projeto {
     color: white;
     padding: 20px;
@@ -170,6 +171,7 @@ main{
 .sobre_projeto p{
     width: 400px;
 }
+/*img*/
 .img_projeto1{
     background-image: url(../imagem/Captura\ de\ tela\ 2024-11-17\ 194227.png);
     height: auto;
