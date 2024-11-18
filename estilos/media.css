@@ -86,6 +86,9 @@ button{
   text-align: center;
   width: 300px;
 }
+.botoes_projeto{
+  justify-content: center;
+}
 }
 @media screen and (min-width:420px) and (max-width:767px){
   .sobre_info{
