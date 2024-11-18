@@ -200,3 +200,8 @@ main{
     background-size: cover;
     background-position:left;
 }
+.botoes_projeto{
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+}
