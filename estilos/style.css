@@ -176,6 +176,7 @@ main{
     padding: 20px;
 }
 .sobre_projeto p{
+    text-align: justify;
     width: 400px;
 }
 /*img*/
