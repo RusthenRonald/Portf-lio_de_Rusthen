@@ -233,15 +233,58 @@ main{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    height: 600px;
+    height: 900px;
 }
 iframe{
     border-radius: 20px;
+    height: 300px;
+    margin-top: 60px;
+    margin-bottom: 20px;
 }
-.input_grupo{
-    display: flex;
-    flex-direction: column;
+form {
+    width: 100%;
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
 }
+
+.input_grupo {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+}
+
+input, 
+textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+}
+
+input:focus, 
+textarea:focus {
+    outline: none;
+    border-color: #00714E;
+    box-shadow: 0 0 4px #00714d71;
+}
+
+textarea {
+    min-height: 100px;
+    resize: vertical;
+}
+
 /*footer*/
 footer{
     height: 220px;
