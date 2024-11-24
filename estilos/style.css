@@ -163,7 +163,7 @@ main{
     align-items: center;
     gap: 50px;
     background-color: black;
-    height: 2550px;
+    height: 2050px;
 }
 .projetos{
     display: flex;
@@ -217,14 +217,6 @@ main{
 }
 .img_projeto4{
     background-image: url(../imagem/Captura\ de\ tela\ 2024-11-17\ 204722.png);
-    height: auto;
-    width: 50%;
-    background-size: cover;
-    background-position:left;
-    border-radius: 5px;
-}
-.img_projeto5{
-    background-image: url(../imagem/kanbam.png);
     height: auto;
     width: 50%;
     background-size: cover;
