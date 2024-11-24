@@ -231,7 +231,16 @@ main{
 .contato_form{
     display: flex;
     align-items: center;
+    justify-content: center;
+    flex-direction: column;
     height: 600px;
+}
+iframe{
+    border-radius: 20px;
+}
+.input_grupo{
+    display: flex;
+    flex-direction: column;
 }
 /*footer*/
 footer{
