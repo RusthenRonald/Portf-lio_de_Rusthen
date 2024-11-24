@@ -292,7 +292,9 @@ textarea {
     min-height: 100px;
     resize: vertical;
 }
-
+form>button{
+    width: 100%;
+}
 /*footer*/
 footer{
     height: 220px;
