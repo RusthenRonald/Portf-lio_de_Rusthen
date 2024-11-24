@@ -1,5 +1,8 @@
 
 @media screen and (min-width:200px) and (max-width:420px){
+  iframe{
+    width: 450px;
+  }
   #home{
     padding-top: 20px;
   }
