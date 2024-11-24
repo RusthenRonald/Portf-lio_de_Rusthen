@@ -229,6 +229,8 @@ main{
 }
 /*Contato*/
 .contato_form{
+    display: flex;
+    align-items: center;
     height: 600px;
 }
 /*footer*/
