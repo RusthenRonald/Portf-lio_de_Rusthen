@@ -227,7 +227,11 @@ main{
     background-color: white;
     color: black;
 }
-
+/*Contato*/
+.contato_form{
+    height: 600px;
+}
+/*footer*/
 footer{
     height: 220px;
     font-family: 'Inter',sans-serif;
