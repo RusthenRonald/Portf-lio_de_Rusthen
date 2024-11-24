@@ -163,7 +163,7 @@ main{
     align-items: center;
     gap: 50px;
     background-color: black;
-    height: 1850px;
+    height: 2050px;
 }
 .projetos{
     display: flex;
@@ -183,6 +183,14 @@ main{
     width: 400px;
 }
 /*img*/
+.img_projeto0{
+    background-image: url(../imagem/lista\ de\ tarefas.png);
+    height: auto;
+    width: 50%;
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+}
 .img_projeto1{
     background-image: url(../imagem/Captura\ de\ tela\ 2024-11-17\ 194227.png);
     height: auto;
