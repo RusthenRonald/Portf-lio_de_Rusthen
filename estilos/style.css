@@ -79,8 +79,8 @@ main{
     color: white;
 }
 .sobre_img img{
-    border-radius: 10%;
-    width: 230px;
+    border-radius: 50%;
+    width: auto;
     height: 400px;
 }
 /*span com cores*/
